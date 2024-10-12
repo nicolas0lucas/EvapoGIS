@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EvapoGISDialog</class>
+ <widget class="QWidget" name="EvapoGISDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EvapoGIS</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   
+   <!-- Grupo de Parâmetros de Entrada -->
+   <item>
+    <widget class="QGroupBox" name="groupBoxInputs">
+     <property name="title">
+      <string>Parâmetros de Entrada</string>
+     </property>
+     <!-- Aumento da fonte do título -->
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayoutInputs">
+      
+      <!-- Campo para inserir o caminho do arquivo MTL -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutMTL">
+        <item>
+         <widget class="QLabel" name="labelMTL">
+          <property name="text">
+           <string>Arquivo MTL:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="caminhoMTL"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectMTLButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o caminho do MDE -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutMDE">
+        <item>
+         <widget class="QLabel" name="labelMDE">
+          <property name="text">
+           <string>Arquivo MDE:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="caminhoMDE"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectMDEButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o diretório contendo as bandas raster (imagens TIF) -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutBandas">
+        <item>
+         <widget class="QLabel" name="labelBandas">
+          <property name="text">
+           <string>Diretório das Bandas Raster:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="caminhoBandas"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectBandasButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o caminho do shapefile para o recorte -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutShapefile">
+        <item>
+         <widget class="QLabel" name="labelShapefile">
+          <property name="text">
+           <string>Shapefile de Recorte:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="shapefilePath"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectShapefileButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o diretório onde os arquivos processados serão salvos -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutOutputDir">
+        <item>
+         <widget class="QLabel" name="labelOutputDir">
+          <property name="text">
+           <string>Diretório de Saída:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="outputDir"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectOutputDirButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o caminho completo para o raster de referência (imagem do Landsat) -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutRasterReferencia">
+        <item>
+         <widget class="QLabel" name="labelRasterReferencia">
+          <property name="text">
+           <string>Raster de Referência (Landsat):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="rasterReferencia"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="selectRasterReferenciaButton">
+          <property name="text">
+           <string>Selecionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      
+     </layout>
+    </widget>
+   </item>
+   
+   <!-- Grupo de Dados Meteorológicos -->
+   <item>
+    <widget class="QGroupBox" name="groupBoxMeteo">
+     <property name="title">
+      <string>Dados Meteorológicos</string>
+     </property>
+     <!-- Aumento da fonte do título -->
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayoutMeteo">
+      
+      <!-- Campo para inserir a velocidade do vento a 2m (m/s) -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutU2m">
+        <item>
+         <widget class="QLabel" name="labelU2m">
+          <property name="text">
+           <string>Velocidade do Vento a 2m (m/s):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="u2m"/>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o ETo instantâneo (mm) -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutEToi">
+        <item>
+         <widget class="QLabel" name="labelEToi">
+          <property name="text">
+           <string>ETo Instantâneo (mm):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="EToi"/>
+        </item>
+       </layout>
+      </item>
+      
+      <!-- Campo para inserir o ETo diário (mm) -->
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayoutETo">
+        <item>
+         <widget class="QLabel" name="labelETo">
+          <property name="text">
+           <string>ETo Diário (mm):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="ETo"/>
+        </item>
+       </layout>
+      </item>
+      
+     </layout>
+    </widget>
+   </item>
+   
+   <!-- Botão 'Processar' -->
+   <item>
+    <widget class="QPushButton" name="runButton">
+     <property name="text">
+      <string>Processar</string>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   
+   <!-- Área para Mensagens -->
+   <item>
+    <widget class="QLabel" name="messageLabel">
+     <property name="text">
+      <string></string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: green; font-weight: bold;</string>
+     </property>
+    </widget>
+   </item>
+   
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
