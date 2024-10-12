@@ -53,6 +53,7 @@ Ideal para profissionais de geociências, agronomia e gestão ambiental que busc
    - **Windows:** `C:\Users\<SeuUsuário>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\`
    - **macOS/Linux:** `~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/`
 3. Abra o **QGIS** e ative o plugin via `Plugins` > `Gerenciar e Instalar Plugins...`.
+4. Continue por aqui ------------> https://evapogis-9174d.web.app/
 
 ## 🎛️ Uso
 
@@ -66,15 +67,6 @@ Ideal para profissionais de geociências, agronomia e gestão ambiental que busc
    - Clique no botão **Processar** para iniciar o processamento.
    - A mensagem final confirmará a conclusão bem-sucedida do processo.
 
-## 📸 Capturas de Tela
-
-### Interface do EvapoGIS
-
-![Interface do EvapoGIS](https://raw.githubusercontent.com/SeuUsuario/EvapoGIS/main/docs/screenshot.png)
-
-### Resultado do Processamento
-
-![Resultado](https://raw.githubusercontent.com/SeuUsuario/EvapoGIS/main/docs/result.png)
 
 ## 🔗 Dependências
 
