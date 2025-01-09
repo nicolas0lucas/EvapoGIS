@@ -23,7 +23,7 @@
 - Processar arquivos MTL e MDE de forma eficiente.
 - Integrar bandas raster para análises detalhadas.
 - Realizar recortes geoespaciais com shapefiles personalizados.
-- Calcular índices de evapotranspiração (ETo) instantâneos e diários.
+- Calcular índices de evapotranspiração (ETa) instantâneos e diários.
 
 Ideal para profissionais de geociências, agronomia e gestão ambiental que buscam otimizar seus fluxos de trabalho no QGIS.
 
@@ -86,9 +86,10 @@ As dependências devem ser instaladas no ambiente Python do QGIS. Siga os passos
    ```bash
    python -m pip install --upgrade pip
    
-3. E instale `pip`:
+3. E instale as bibliotecas necessárias`pip`:
    ```bash
-   python -m pip install --upgrade pip
+   pip install <nome_da_biblioteca>
+
 
   ### **Referências**
 ALLEN, R.G.; TASUMI, M.; TREZZA, R.; WATERS, R.; BASTIAANSSEN, W. SEBAL (Surface Energy Balance Algorithms for Land). Advance Training and Users Manual - Idaho Implementation, version 1.0. Idaho: University of Idaho, 2002. 97p.
