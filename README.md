@@ -87,3 +87,8 @@ As dependências devem ser instaladas no ambiente Python do QGIS. Siga os passos
 2. Atualize o `pip`:
    ```bash
    python -m pip install --upgrade pip
+
+  ### **Referências**
+ALLEN, R.G.; TASUMI, M.; TREZZA, R.; WATERS, R.; BASTIAANSSEN, W. SEBAL (Surface Energy Balance Algorithms for Land). Advance Training and Users Manual - Idaho Implementation, version 1.0. Idaho: University of Idaho, 2002. 97p.
+WOLFF, W. Script para calcular a evapotranspiração diária para imagens Landsat 8 em GRASS GIS. 2016. DOI: http://doi.org/10.5281/zenodo.167350.
+
