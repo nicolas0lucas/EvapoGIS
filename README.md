@@ -72,7 +72,7 @@ O **EvapoGIS** depende das seguintes bibliotecas Python:
 
 - [rasterio](https://rasterio.readthedocs.io/)
 - [numpy](https://numpy.org/)
-- [GeoPandas]([https://geopandas.pydata.org/](https://geopandas.org/en/stable/getting_started/introduction.html))
+- [GeoPandas](https://geopandas.org/en/stable/getting_started/introduction.html)
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
 
 ### 📦 Instalando Dependências
