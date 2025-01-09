@@ -12,11 +12,9 @@
 - [Características](#-características)
 - [Instalação](#-instalação)
 - [Uso](#-uso)
-- [Capturas de Tela](#-capturas-de-tela)
+- [Capturas de Tela](#-instalando-dependências)
 - [Dependências](#-dependências)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
-- [Contato](#-contato)
+
 
 ## 🌟 Sobre
 
