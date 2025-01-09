@@ -72,7 +72,7 @@ O **EvapoGIS** depende das seguintes bibliotecas Python:
 
 - [rasterio](https://rasterio.readthedocs.io/)
 - [numpy](https://numpy.org/)
-- [pandas](https://pandas.pydata.org/)
+- [geopandas](https://geopandas.pydata.org/)
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
 
 ### 📦 Instalando Dependências
@@ -83,6 +83,10 @@ As dependências devem ser instaladas no ambiente Python do QGIS. Siga os passos
 
 1. Abra o **OSGeo4W Shell** como administrador.
 2. Atualize o `pip`:
+   ```bash
+   python -m pip install --upgrade pip
+   
+3. E instale `pip`:
    ```bash
    python -m pip install --upgrade pip
 
