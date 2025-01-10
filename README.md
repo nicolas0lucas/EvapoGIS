@@ -21,8 +21,11 @@
 **EvapoGIS** é um plugin para [QGIS](https://qgis.org) que facilita o processamento e análise de dados geoespaciais relacionados à evapotranspiração. Integrando ferramentas avançadas de processamento raster e dados meteorológicos, o EvapoGIS permite que usuários:
 
 •	Evapotranspiração Real: Estimativa da evapotranspiração real instantânea e diária com base no fluxo de calor latente (LE).
+
 •	Cálculo de Variáveis Energéticas: Inclui albedo, radiação líquida (Rn), fluxo de calor no solo (G), fluxo de calor sensível (H) e temperatura de superfície.
+
 •	Geração de Índices de Vegetação: Produz NDVI, SAVI e LAI para análise de cobertura do solo.
+
 •	Resultados em Arquivos Raster: As variáveis processadas são exportadas como arquivos raster, facilitando análises espaciais no QGIS.
 
 Ideal para profissionais de geociências, agronomia e gestão ambiental que buscam otimizar seus fluxos de trabalho no QGIS.
